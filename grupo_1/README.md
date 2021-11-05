@@ -23,6 +23,14 @@ cd Cliente/
 sudo docker build . -t cliente
 
 ```
+
+## Instalar polymorph
+
+```
+cd Polymorph/
+sudo docker build . -t polymorph
+
+```
 # Uso
 
 A continuación los comandos para ejecutar los docker.
@@ -36,6 +44,14 @@ sudo docker run -it --name cliente_irc cliente
 
 ```
 
+```
+sudo docker run --privileged -it --name Polymorph polymorph
+
+```
 
 # Video demostracion
 [![Video Demostración](https://i.imgur.com/OBBkrFU.png)](https://youtu.be/LPEkf3mqnRoY)
+
+# Video demostración modificación de tráfico
+[![Video demostración modificación de tráfico](https://i.imgur.com/KVpjjDR.png)](https://youtu.be/x5IGxQmZp2k)
+
